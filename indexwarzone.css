@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-image: radial-gradient(at center,
+	black 0%,
+	#099FC8  0%, 
+	#0681A3  20%,
+	#F31D1D 40%,
+	#D80505  60%,
+	black 80%
+);
+	
+	background-size: 200% 200%;
+	
+	animation: movimiento 10s linear infinite alternate;
+}
+
+@keyframes movimiento {
+	from {
+		background-position: 0 0;
+	}
+	to {
+	background-position: 90% 90%;	
+	}
+}
+
+#contenedor{background-color: white;
+margin: auto;
+height: 850px;
+width: 1000px;
+font-size: 20px;
+padding-top: 10px;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+
+ header{background-color: white;
+ height: 200px;
+ color: black;
+ font-family: Arial, Helvetica, sans-serif;}
+
+#logo{width: 250px;
+height: 200px;
+margin-left: 350px;}
+
+#War-zone{height: 150px;
+width: 150;
+
+margin-top: 10px;
+margin-bottom: 20px;
+margin-left: 25px;}
+
+nav{margin:auto;
+	max-width: 900px;
+	font-size: 20px;
+	margin-top: 20px;
+	background-color:red}
+
+.menu-horizontal{list-style: none;
+display: flex;
+justify-content: space-around;}
+
+.menu-horizontal >li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;}
+
+.menu-horizontal > li:hover{
+	background-color: black;
+}
+
+.menu-vertical{position: absolute;
+display: none;
+list-style: none;
+width: 200px;
+background-color: rgba(106,106,106,.5);}
+
+.menu-horizontal li:hover .menu-vertical{
+	display: block;}
+
+.menu-vertical li:hover{
+	background-color: black;}
+	
+.menu-vertical li a{
+	display: block;
+	color: white;
+	padding: 15px 15px 15px 20px;}
+
+section{height: 400px;
+background-image: linear-gradient(to bottom right, #D80505, #099FC8);}
+
+
+footer{width: 300px;
+height: 80px;
+float: left;
+margin-top: 80px}
+
+#info{font-size: 15px}
+
+aside{height: 100px;
+width: 675px;
+float: left;
+margin-top: 40px}
+
+.redes{height: 40px;
+width: 40px;
+margin-left: 40px;
+margin-top: 50px;
+float: right}
+
+.redes:hover{heigt: 35px;
+width: 45px;}
+
+#redess{height: 35px;
+	width: 35px;
+	margin-top: 55px;
+	margin-left: 40px;
+	float: right}
+
+#redes:hover{heigth: 40px;
+width: 40px}

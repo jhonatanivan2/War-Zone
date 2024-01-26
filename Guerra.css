@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{background-image: url("call of duty.jpg");
+	background-size: cover;
+	background-position: center;
+
+	
+}
+
+#contenedor{background-color: black;
+margin: auto;
+height: 2150px;
+width: 1000px;
+font-size: 20px;
+padding-top: 10px;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+
+ header{background-color: black;
+ height: 200px;
+ color: black;
+ font-family: Arial, Helvetica, sans-serif;}
+
+#logo{width: 250px;
+height: 200px;
+margin-left: 350px;}
+
+#War-zone{height: 150px;
+width: 150;
+
+margin-top: 10px;
+margin-bottom: 20px;
+margin-left: 25px;}
+
+nav{margin:auto;
+	max-width: 900px;
+	font-size: 20px;
+	margin-top: 20px;
+	background-color:red;
+border-radius: 16px;
+box-shadow: 0px 15px 25px rgba(255,255,255,0.50);}
+
+.menu-horizontal{list-style: none;
+display: flex;
+justify-content: space-around;}
+
+.menu-horizontal >li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;}
+
+.menu-horizontal > li:hover{
+	background-color: black;
+}
+
+.menu-vertical{position: absolute;
+display: none;
+list-style: none;
+width: 200px;
+background-color: rgba(106,106,106,.5);
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(255,255,255,0.50);}
+
+.menu-horizontal li:hover .menu-vertical{
+	display: block;}
+
+.menu-vertical li:hover{
+	background-color: black;}
+	
+.menu-vertical li a{
+	display: block;
+	color: white;
+	padding: 15px 15px 15px 20px;
+}
+
+section{height: 1690px;}
+
+.contenedor-img{width: 100%;
+display: flex;
+padding-top: 240px;
+	margin-left:  210px;
+height: 100vh;}
+
+.contenedor-img figure{position: relative;
+height: 250px;
+width: 450px;
+overflow: hidden;
+border-radius: 10px;
+box-shadow: 0px 15px 25px rgba(255,255,255,0.50);
+cursor: pointer;}
+
+.contenedor-img figure img{width: 100%;
+height: 100%;
+transition: all 500ms ease-out;}
+
+.contenedor-img figure .capa{position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+background: rgba(255,0,0,0.6);
+transition: all 500ms ease-out;
+opacity: 0;
+visibility: hidden;
+text-align: center;}
+
+.contenedor-img figure:hover > .capa{opacity: 1;
+visibility: visible;}
+
+.contenedor-img figure:hover > .capa h3{margin-top: 70px;
+margin-bottom: 15px;}
+
+.contenedor-img figure:hover > img{transform: scale(1.3);}
+
+.contenedor-img figure .capa h3{color: white;
+font-weight: 400px;
+margin-bottom: 120px;
+transition: all 500ms ease-out;
+margin-bottom: 30px;}
+
+.contenedor-img figure .capa p{color: white;
+font-size: 15px;
+line-height: 1.5;
+width: 100%;
+max-width: 220px;
+margin: auto;}
+
+.caja5{background: #CE9600;
+ width: 994px;
+ height: 1120px;
+ float: left;
+ margin-top: -670px;
+ margin-left: 0px;
+ border: black 3px solid;
+ padding-top: 0px;}
+ 
+ .caja5:hover{background-color:#BD040F}
+ 
+table{margin: auto;
+width: 900px;
+height: 200px;
+font-size: 20px;
+text-align: center;
+margin-top: 15PX;}
+
+th{background-color: red;}
+tr{background-color: #B28101;}
+tr:hover{background-color: red;
+color: white;
+font-size: 25px;}
+
+#c1 {height: 200px;
+width: 400px;}
+#lista1 {
+font-size: 10px}
+#precio1 {text-align: center;
+font-size: 10px}
+
+#c2 {height: 200px;
+width: 400px;}
+#lista2 {
+font-size: 10px}
+#precio2 {text-align: center;
+font-size: 10px}
+
+#c3 {height: 200px;
+width: 400px;}
+#lista2 {
+font-size: 10px}
+#precio2 {text-align: center;
+font-size: 10px}
+
+#c4 {height: 200px;
+width: 400px;}
+#lista2 {
+font-size: 10px}
+#precio2 {text-align: center;
+font-size: 10px}
+
+#c5 {height: 200px;
+width: 400px;}
+#lista2 {
+font-size: 10px;
+text-align: center;}
+#precio2 {text-align: center;
+font-size: 10px}
+
+footer{width: 300px;
+height: 80px;
+float: left;
+margin-top: 80px}
+
+#info{font-size: 15px;
+color: white;}
+
+aside{height: 100px;
+width: 675px;
+float: left;
+margin-top: 40px}
+
+.redes{height: 40px;
+width: 40px;
+margin-left: 40px;
+margin-top: 50px;
+float: right}
+
+.redes:hover{heigt: 35px;
+width: 45px;}
+
+#redess{height: 35px;
+	width: 35px;
+	margin-top: 55px;
+	margin-left: 40px;
+	float: right}
+
+#redes:hover{heigth: 40px;
+width: 40px}

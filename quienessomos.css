@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{padding: 0px;
+margin: 0;
+font-family: sans-serif;}
+
+.contenedor{width: 100%;
+margin: auto;}
+
+section{height: 100vh;}
+
+.section1{background: url("call of duty.jpg");
+overflow: hidden;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;}
+
+.section2{background: url("pista.jpg");
+overflow: hidden;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+height: auto;}
+
+.section3{background: url("74181388_2427886254140899_6106696630163996672_n.jpg");
+overflow: hidden;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;}
+
+.section4{background: url("197781786_4024251957653318_535435443548832377_n.jpg");
+overflow: hidden;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;}
+
+.section5{background: url("mario2.jpg");
+overflow: hidden;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;}
+
+.section1 h1{background: rgba(0,0,0,0.5);
+color: #fff;
+font-size: 2.5em;
+opacity: 0.76;
+text-align: center;
+margin-top: 250px;
+padding: 10px;}
+
+.texto__columna{text-align: justify;
+margin: 10px;
+padding: 10px 20px;
+background: rgba(255,255,255,0.8);
+width: 90%;}
+
+section .contenedor{display: flex;
+flex-wrap: wrap;
+justify-content: center;}
+
+.section3 h2{background: rgba(0,0,0,0.5);
+color: #fff;
+font-size: 2.5em;
+opacity: 0.76;
+text-align: center;
+margin-top: 250px;
+padding: 10px;}
+
+.section4 h3{background: rgba(0,0,0,0.5);
+color: #fff;
+font-size: 2.5em;
+opacity: 0.76;
+text-align: center;
+margin-top: 250px;
+padding: 10px;}
+
+.section5 h4{background: rgba(0,0,0,0.5);
+color: #fff;
+font-size: 2.5em;
+opacity: 0.76;
+text-align: center;
+margin-top: 250px;
+padding: 10px;}
+
+@media(min-width: 620px){
+	.texto__columna{
+		width: 40%;
+	}
+	.section1 h1{font-size: 3em;}
+
+}
+.section3 h2{font-size: 3em;}
+
+.section4 h3{font-size: 3em;}
+
+.section5 h4{font-size: 3em;}
+
+
+@media(min-width: 1024px){
+	.contenedor{
+		width: 1024px;
+	}
+	.texto__columna{
+		width: 19%;
+	}
+	.section3 h2{font-size: 4em;}
+
+.section4 h3{font-size: 4em;}
+
+.section5 h4{font-size: 4em;}
+}
+
+@media(min-width: 1200px){
+	.contenedor{
+		width: 1200px;
+	}
+}
